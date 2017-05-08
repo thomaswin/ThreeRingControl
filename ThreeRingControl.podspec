@@ -19,10 +19,13 @@ s.author       = "Raywenderlich.com Tutorial Team"
 s.platform     = :ios, "10.0"
 
 # s.source       = { :path => '.' }
-s.source       = { :git => "https://github.com/thomaswin/ThreeRingControl.git", :tag => "1.0.0" }
+s.source       = { :git => "https://github.com/thomaswin/ThreeRingControl", :tag => "1.0.0" }
 
 s.source_files = "ThreeRingControl", "ThreeRingControl/**/*.{h,m,swift}"
 s.resources    = "ThreeRingControl/*.mp3"
 s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3' }
 
 end
+
+
+

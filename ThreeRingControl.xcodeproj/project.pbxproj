@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		24B62914B69AC7C51E4AEBB6 /* Pods_ThreeRingControlTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 11C97935500BAAFE428AFC86 /* Pods_ThreeRingControlTests.framework */; };
+		522D9312FA08FFB7620A4A91 /* Pods_ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBE03239C35D3420157018C1 /* Pods_ThreeRingControl.framework */; };
+		E016A9AC1EC05E4A00BB5258 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E016A9AB1EC05E4A00BB5258 /* DataManager.swift */; };
 		E06A6DC71EC042DB00B5BD13 /* ThreeRingControl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E06A6DBD1EC042DA00B5BD13 /* ThreeRingControl.framework */; };
 		E06A6DCC1EC042DB00B5BD13 /* ThreeRingControlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06A6DCB1EC042DB00B5BD13 /* ThreeRingControlTests.swift */; };
 		E06A6DCE1EC042DB00B5BD13 /* ThreeRingControl.h in Headers */ = {isa = PBXBuildFile; fileRef = E06A6DC01EC042DA00B5BD13 /* ThreeRingControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -31,6 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015F6CBB0B1319AC3E8934E2 /* Pods-ThreeRingControlTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeRingControlTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeRingControlTests/Pods-ThreeRingControlTests.debug.xcconfig"; sourceTree = "<group>"; };
+		0ED6AC50B6DCA55EE28F306C /* Pods-ThreeRingControlTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeRingControlTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeRingControlTests/Pods-ThreeRingControlTests.release.xcconfig"; sourceTree = "<group>"; };
+		11C97935500BAAFE428AFC86 /* Pods_ThreeRingControlTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeRingControlTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B6DE394B060D0495D97616E /* Pods-ThreeRingControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeRingControl.release.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeRingControl/Pods-ThreeRingControl.release.xcconfig"; sourceTree = "<group>"; };
+		BBA9F994B649A9F7CE1C23F5 /* Pods-ThreeRingControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ThreeRingControl.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ThreeRingControl/Pods-ThreeRingControl.debug.xcconfig"; sourceTree = "<group>"; };
+		BBE03239C35D3420157018C1 /* Pods_ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E016A9AB1EC05E4A00BB5258 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		E06A6DBD1EC042DA00B5BD13 /* ThreeRingControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ThreeRingControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E06A6DC01EC042DA00B5BD13 /* ThreeRingControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeRingControl.h; sourceTree = "<group>"; };
 		E06A6DC11EC042DA00B5BD13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -52,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522D9312FA08FFB7620A4A91 /* Pods_ThreeRingControl.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,18 +71,41 @@
 			buildActionMask = 2147483647;
 			files = (
 				E06A6DC71EC042DB00B5BD13 /* ThreeRingControl.framework in Frameworks */,
+				24B62914B69AC7C51E4AEBB6 /* Pods_ThreeRingControlTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20F6312A8916350387886EA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BBA9F994B649A9F7CE1C23F5 /* Pods-ThreeRingControl.debug.xcconfig */,
+				1B6DE394B060D0495D97616E /* Pods-ThreeRingControl.release.xcconfig */,
+				015F6CBB0B1319AC3E8934E2 /* Pods-ThreeRingControlTests.debug.xcconfig */,
+				0ED6AC50B6DCA55EE28F306C /* Pods-ThreeRingControlTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		887B2450C6C2866780121704 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBE03239C35D3420157018C1 /* Pods_ThreeRingControl.framework */,
+				11C97935500BAAFE428AFC86 /* Pods_ThreeRingControlTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E06A6DB31EC042DA00B5BD13 = {
 			isa = PBXGroup;
 			children = (
 				E06A6DBF1EC042DA00B5BD13 /* ThreeRingControl */,
 				E06A6DCA1EC042DB00B5BD13 /* ThreeRingControlTests */,
 				E06A6DBE1EC042DA00B5BD13 /* Products */,
+				20F6312A8916350387886EA4 /* Pods */,
+				887B2450C6C2866780121704 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +131,7 @@
 				E06A6DDE1EC0433A00B5BD13 /* winning.mp3 */,
 				E06A6DC01EC042DA00B5BD13 /* ThreeRingControl.h */,
 				E06A6DC11EC042DA00B5BD13 /* Info.plist */,
+				E016A9AB1EC05E4A00BB5258 /* DataManager.swift */,
 			);
 			path = ThreeRingControl;
 			sourceTree = "<group>";
@@ -128,10 +163,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E06A6DD11EC042DB00B5BD13 /* Build configuration list for PBXNativeTarget "ThreeRingControl" */;
 			buildPhases = (
+				E58125338BBDBB797B8869E8 /* [CP] Check Pods Manifest.lock */,
 				E06A6DB81EC042DA00B5BD13 /* Sources */,
 				E06A6DB91EC042DA00B5BD13 /* Frameworks */,
 				E06A6DBA1EC042DA00B5BD13 /* Headers */,
 				E06A6DBB1EC042DA00B5BD13 /* Resources */,
+				3B991E0F188E9A8F57479609 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +183,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E06A6DD41EC042DB00B5BD13 /* Build configuration list for PBXNativeTarget "ThreeRingControlTests" */;
 			buildPhases = (
+				588F8942BAF4B2451644330D /* [CP] Check Pods Manifest.lock */,
 				E06A6DC21EC042DB00B5BD13 /* Sources */,
 				E06A6DC31EC042DB00B5BD13 /* Frameworks */,
 				E06A6DC41EC042DB00B5BD13 /* Resources */,
+				5DD96B6983B0DC3537120EB0 /* [CP] Embed Pods Frameworks */,
+				22DB35C3F56621988E28B047 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -220,6 +260,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22DB35C3F56621988E28B047 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeRingControlTests/Pods-ThreeRingControlTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B991E0F188E9A8F57479609 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeRingControl/Pods-ThreeRingControl-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		588F8942BAF4B2451644330D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5DD96B6983B0DC3537120EB0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ThreeRingControlTests/Pods-ThreeRingControlTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E58125338BBDBB797B8869E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E06A6DB81EC042DA00B5BD13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -228,6 +346,7 @@
 				E06A6DE51EC0433A00B5BD13 /* Utilities.swift in Sources */,
 				E06A6DDF1EC0433A00B5BD13 /* CircularGradient.swift in Sources */,
 				E06A6DE31EC0433A00B5BD13 /* RingTip.swift in Sources */,
+				E016A9AC1EC05E4A00BB5258 /* DataManager.swift in Sources */,
 				E06A6DE41EC0433A00B5BD13 /* ThreeRingView.swift in Sources */,
 				E06A6DE21EC0433A00B5BD13 /* RingLayer.swift in Sources */,
 				E06A6DE11EC0433A00B5BD13 /* Fanfare.swift in Sources */,
@@ -354,6 +473,7 @@
 		};
 		E06A6DD21EC042DB00B5BD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BBA9F994B649A9F7CE1C23F5 /* Pods-ThreeRingControl.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -376,6 +496,7 @@
 		};
 		E06A6DD31EC042DB00B5BD13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B6DE394B060D0495D97616E /* Pods-ThreeRingControl.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
@@ -397,6 +518,7 @@
 		};
 		E06A6DD51EC042DB00B5BD13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015F6CBB0B1319AC3E8934E2 /* Pods-ThreeRingControlTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2YU75YNV6V;
@@ -410,6 +532,7 @@
 		};
 		E06A6DD61EC042DB00B5BD13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ED6AC50B6DCA55EE28F306C /* Pods-ThreeRingControlTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2YU75YNV6V;
